@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Backend API geliştirme ve test",
+    "description": "Görev yönetim API'sini geliştirmek ve testlerini yapmak",
+    "status": "in-progress",
+    "priority": "medium",
+    "assigneeId": 2,
+    "createdAt": "2026-11-15T10:00:00.000Z",
+    "updatedAt": "2026-11-16T18:53:04.181Z"
+  },
+  {
+    "id": 2,
+    "title": "Frontend arayüz tasarımı",
+    "description": "Görev yönetim sistemi için kullanıcı arayüzü hazırlamak",
+    "status": "in-progress",
+    "priority": "medium",
+    "assigneeId": 2,
+    "createdAt": "2026-11-15T10:30:00.000Z",
+    "updatedAt": "2026-11-15T11:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "title": "Veritabanı tasarımı",
+    "description": "Sistemin veri yapısını ve tablolarını tasarlamak",
+    "status": "completed",
+    "priority": "high",
+    "assigneeId": 6,
+    "createdAt": "2026-11-14T09:00:00.000Z",
+    "updatedAt": "2026-11-16T16:42:54.126Z"
+  },
+  {
+    "id": 4,
+    "title": "API testlerinin yapılması",
+    "description": "Postman kullanarak API endpointlerini test etmek",
+    "status": "pending",
+    "priority": "low",
+    "assigneeId": 4,
+    "createdAt": "2026-11-15T13:00:00.000Z",
+    "updatedAt": "2026-11-15T13:00:00.000Z"
+  },
+  {
+    "id": 5,
+    "title": "Logger middleware geliştirme",
+    "description": "Gelen HTTP isteklerini konsola kaydetmek",
+    "status": "in-progress",
+    "priority": "high",
+    "assigneeId": 1,
+    "createdAt": "2026-11-15T14:00:00.000Z",
+    "updatedAt": "2026-11-15T15:00:00.000Z"
+  },
+  {
+    "id": 6,
+    "title": "README dokümantasyonu",
+    "description": "Projenin kurulum ve kullanım adımlarını yazmak",
+    "status": "pending",
+    "priority": "medium",
+    "assigneeId": 5,
+    "createdAt": "2026-11-15T15:30:00.000Z",
+    "updatedAt": "2026-11-15T15:30:00.000Z"
+  },
+  {
+    "id": 7,
+    "title": "Görev silme endpointi",
+    "description": "ID üzerinden görev silme işlemini geliştirmek",
+    "status": "completed",
+    "priority": "low",
+    "assigneeId": 2,
+    "createdAt": "2026-11-13T10:00:00.000Z",
+    "updatedAt": "2026-11-14T16:00:00.000Z"
+  },
+  {
+    "id": 8,
+    "title": "Hata yönetimi",
+    "description": "API içerisinde hata mesajlarını ve HTTP durum kodlarını düzenlemek",
+    "status": "in-progress",
+    "priority": "high",
+    "assigneeId": 3,
+    "createdAt": "2026-11-14T11:00:00.000Z",
+    "updatedAt": "2026-11-15T16:00:00.000Z"
+  },
+  {
+    "id": 9,
+    "title": "API güvenlik kontrolleri",
+    "description": "İsteklerde gönderilen verilerin kontrol edilmesi",
+    "status": "pending",
+    "priority": "medium",
+    "assigneeId": 4,
+    "createdAt": "2026-11-15T16:30:00.000Z",
+    "updatedAt": "2026-11-15T16:30:00.000Z"
+  },
+  {
+    "id": 10,
+    "title": "Proje teslim hazırlığı",
+    "description": "GitHub reposunu hazırlamak ve test ekran görüntülerini eklemek",
+    "status": "pending",
+    "priority": "high",
+    "assigneeId": 1,
+    "createdAt": "2026-11-15T17:00:00.000Z",
+    "updatedAt": "2026-11-15T17:00:00.000Z"
+  }
+]
