@@ -123,6 +123,7 @@ taskflow/
 │
 ├── package.json
 ├── package-lock.json
+├── Proje Tanıtım Dokümanı.pdf
 └── README.md
 ```
 
