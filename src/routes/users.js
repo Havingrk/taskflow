@@ -24,7 +24,7 @@ router.get('/', (req, res) => {
 
     const {
         sayfa = 1,
-        limit = 100,
+        limit = 5,
         role,
         ara,
         siralama = 'tarih'
@@ -32,7 +32,7 @@ router.get('/', (req, res) => {
 
     // Sayfa ve limit değerlerini Number'a çevir
     const sayfaNo = Math.max(1, Number(sayfa));
-    const limitNo = Math.min(100, Math.max(1, Number(limit)));
+    const limitNo = Math.min(10, Math.max(1, Number(limit)));
 
     // 1. Role filtreleme
     let sonuc = role
